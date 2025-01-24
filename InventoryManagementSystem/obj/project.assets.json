@@ -69,11 +69,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ginger\\Desktop\\Training Materials\\InventoryManagementSystem\\InventoryManagementSystem\\InventoryManagementSystem.csproj",
+      "projectUniqueName": "C:\\Users\\Ginger\\Desktop\\IT files\\InventoryManagementSystem\\InventoryManagementSystem\\InventoryManagementSystem.csproj",
       "projectName": "InventoryManagementSystem",
-      "projectPath": "C:\\Users\\Ginger\\Desktop\\Training Materials\\InventoryManagementSystem\\InventoryManagementSystem\\InventoryManagementSystem.csproj",
+      "projectPath": "C:\\Users\\Ginger\\Desktop\\IT files\\InventoryManagementSystem\\InventoryManagementSystem\\InventoryManagementSystem.csproj",
       "packagesPath": "C:\\Users\\Ginger\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ginger\\Desktop\\Training Materials\\InventoryManagementSystem\\InventoryManagementSystem\\obj\\",
+      "outputPath": "C:\\Users\\Ginger\\Desktop\\IT files\\InventoryManagementSystem\\InventoryManagementSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ginger\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -90,11 +90,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Ginger\\Desktop\\Training Materials\\InventoryManagementSystem\\BLL\\BLL.csproj": {
-              "projectPath": "C:\\Users\\Ginger\\Desktop\\Training Materials\\InventoryManagementSystem\\BLL\\BLL.csproj"
+            "C:\\Users\\Ginger\\Desktop\\IT files\\InventoryManagementSystem\\BLL\\BLL.csproj": {
+              "projectPath": "C:\\Users\\Ginger\\Desktop\\IT files\\InventoryManagementSystem\\BLL\\BLL.csproj"
             },
-            "C:\\Users\\Ginger\\Desktop\\Training Materials\\InventoryManagementSystem\\DTO\\DTO.csproj": {
-              "projectPath": "C:\\Users\\Ginger\\Desktop\\Training Materials\\InventoryManagementSystem\\DTO\\DTO.csproj"
+            "C:\\Users\\Ginger\\Desktop\\IT files\\InventoryManagementSystem\\DTO\\DTO.csproj": {
+              "projectPath": "C:\\Users\\Ginger\\Desktop\\IT files\\InventoryManagementSystem\\DTO\\DTO.csproj"
             }
           }
         }

@@ -66,11 +66,11 @@ public  class Program
                 Console.WriteLine("Inventory is empty.");
                 return;
             }
-
+            //casted into dynamic because type is not specified until runtime
             foreach (var product in (dynamic)productResult.Result)
             {
                 PrintLines();
-                Console.WriteLine($"ID: {product.ProductId} || Name: {product.Name} || Quantity: {product.QuantityInStock} || Price: ${product.Price:F2}");
+                Console.WriteLine($"ID: {product.ProductId} || Name: {product.Name} || Quantity: {product.QuantityInStock} || Price:₱{product.Price:F2}");
                 
             }
         }
@@ -196,7 +196,7 @@ public  class Program
         if (result.IsSuccess)
         {
             PrintLines();
-            Console.WriteLine($"Total Inventory Value: ${result.Result:F2}");
+            Console.WriteLine($"Total Inventory Value: ₱{result.Result:F2}");
         }
         else
         {

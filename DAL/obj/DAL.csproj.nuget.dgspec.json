@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ginger\\Desktop\\Training Materials\\InventoryManagementSystem\\DAL\\DAL.csproj": {}
+    "C:\\Users\\Ginger\\Desktop\\IT files\\InventoryManagementSystem\\DAL\\DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ginger\\Desktop\\Training Materials\\InventoryManagementSystem\\DAL\\DAL.csproj": {
+    "C:\\Users\\Ginger\\Desktop\\IT files\\InventoryManagementSystem\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ginger\\Desktop\\Training Materials\\InventoryManagementSystem\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Ginger\\Desktop\\IT files\\InventoryManagementSystem\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\Ginger\\Desktop\\Training Materials\\InventoryManagementSystem\\DAL\\DAL.csproj",
+        "projectPath": "C:\\Users\\Ginger\\Desktop\\IT files\\InventoryManagementSystem\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\Ginger\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ginger\\Desktop\\Training Materials\\InventoryManagementSystem\\DAL\\obj\\",
+        "outputPath": "C:\\Users\\Ginger\\Desktop\\IT files\\InventoryManagementSystem\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ginger\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Ginger\\Desktop\\Training Materials\\InventoryManagementSystem\\DTO\\DTO.csproj": {
-                "projectPath": "C:\\Users\\Ginger\\Desktop\\Training Materials\\InventoryManagementSystem\\DTO\\DTO.csproj"
+              "C:\\Users\\Ginger\\Desktop\\IT files\\InventoryManagementSystem\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\Ginger\\Desktop\\IT files\\InventoryManagementSystem\\DTO\\DTO.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\Users\\Ginger\\Desktop\\Training Materials\\InventoryManagementSystem\\DTO\\DTO.csproj": {
+    "C:\\Users\\Ginger\\Desktop\\IT files\\InventoryManagementSystem\\DTO\\DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ginger\\Desktop\\Training Materials\\InventoryManagementSystem\\DTO\\DTO.csproj",
+        "projectUniqueName": "C:\\Users\\Ginger\\Desktop\\IT files\\InventoryManagementSystem\\DTO\\DTO.csproj",
         "projectName": "DTO",
-        "projectPath": "C:\\Users\\Ginger\\Desktop\\Training Materials\\InventoryManagementSystem\\DTO\\DTO.csproj",
+        "projectPath": "C:\\Users\\Ginger\\Desktop\\IT files\\InventoryManagementSystem\\DTO\\DTO.csproj",
         "packagesPath": "C:\\Users\\Ginger\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ginger\\Desktop\\Training Materials\\InventoryManagementSystem\\DTO\\obj\\",
+        "outputPath": "C:\\Users\\Ginger\\Desktop\\IT files\\InventoryManagementSystem\\DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ginger\\AppData\\Roaming\\NuGet\\NuGet.Config",
