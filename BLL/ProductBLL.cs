@@ -17,8 +17,12 @@ namespace BLL
             _errorMessages.Clear();
             _resultView = new ResultDTO();
         }
-       
 
+        /// <summary>
+        /// Adds a product to the inventory. 
+        /// </summary>
+        /// <param name="product">Product</param>
+        /// <returns>IsSuccess: determine if request is success or not,IsListResult : determine if result is a list type, Result : object result to display</returns>
         public ResultDTO AddProduct(Product product)
         {
             ResetState();
@@ -63,7 +67,10 @@ namespace BLL
             return _resultView;
 
         }
-
+        /// <summary>
+        /// Displays all items in the inventory. 
+        /// </summary>
+        /// <returns>IsSuccess: determine if request is success or not,IsListResult : determine if result is a list type, Result : object result to display</returns>
         public ResultDTO ListProducts()
         {
             ResetState();
@@ -89,6 +96,11 @@ namespace BLL
 
             return _resultView;
         }
+        /// <summary>
+        /// Removes a product from the inventory based on its ID. 
+        /// </summary>
+        /// <param name="productId">Product ID to remove</param>
+        /// <returns>IsSuccess: determine if request is success or not,IsListResult : determine if result is a list type, Result : object result to display</returns>
 
         public ResultDTO RemoveProduct(int productId)
         {
@@ -112,7 +124,12 @@ namespace BLL
 
             return _resultView;
         }
-        
+        /// <summary>
+        /// Updates the quantity of a product. 
+        /// </summary>
+        /// <param name="productId">Product ID to update</param>
+        /// <param name="newQuantity">New quantity value</param>
+        /// <returns>IsSuccess: determine if request is success or not,IsListResult : determine if result is a list type, Result : object result to display</returns>
         public ResultDTO UpdateProduct(int productId, int newQuantity)
         {
             ResetState();
@@ -141,7 +158,10 @@ namespace BLL
 
             return _resultView;
         }
-
+        /// <summary>
+        /// Calculates and returns the total value of the inventory. 
+        /// </summary>
+        /// <returns>IsSuccess: determine if request is success or not,IsListResult : determine if result is a list type, Result : object result to display</returns>
         public ResultDTO GetTotalValue()
         {
             ResetState();
@@ -160,7 +180,11 @@ namespace BLL
 
             return _resultView;
         }
-
+        /// <summary>
+        /// Get a product by product ID.
+        /// </summary>
+        /// <param name="productID">Product ID to get</param>
+        /// <returns>IsSuccess: determine if request is success or not,IsListResult : determine if result is a list type, Result : object result to display</returns>
         public ResultDTO GetByID(int productID)
         {
             ResetState();
